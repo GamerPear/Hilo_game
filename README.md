@@ -1,6 +1,14 @@
 # Rust Hilo Guessing Game
 
-- Build a command line based guessing game that generates a random number between 0 and 100
-- Prompt the user for a guess in that range, and then tell the user if the number is higher or lower.
+## Features
+
+- Command line based guessing game that generates a random number between 0 and 100.
+- Prompts the user for a guess in that range, and then it tells the user if the number is higher or lower.
 - The player wins when they guess the number.
-- Print the number of guesses to the console
+- Prints the number of guesses to the console.
+
+## To Do
+
+- Redo `.unwrap().except()` and instead use `let Ok(var) else {}`
+- Bring in Bevy and remkae the program with it
+- Add a window and some ui to learn Bevy ui
